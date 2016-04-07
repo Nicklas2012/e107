@@ -95,8 +95,9 @@ img.logo {
 
 /* Declare heights because of positioning of img element */
 .featurebox.carousel .item {
-  min-height:460px;
-  background-color: #CCCCCC;
+    background-color: #13374d;
+    min-height: 560px;
+    padding-top: 60px;
 }
 
 .featurebox-item-image.pull-left, .featurebox-item-image.pull-right {
@@ -174,4 +175,25 @@ table label.checkbox {
 	.news-images-main { padding-left: 0; padding-bottom:5px}
 }
 
+.featurebox-item-text.col-xs-12.col-md-6.col-sm-6 h1 {
+    color: white;
+    font-family: "Raleway",sans-serif;
+    font-size: 50px;
+    font-weight: 100;
+    padding-top: 85px;
+}
+.featurebox-item-text.col-xs-12.col-md-6.col-sm-6 .header2 {
+    font-family: "Arial Black";
+    font-size: 120px;
+    font-weight: 900;
+    padding-top: 0px;
+    margin-top: -10px;
+}
+
+.carousel-inner > .item > a > img, .carousel-inner > .item > img, .img-responsive, .thumbnail a > img, .thumbnail > img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    padding-left: 100px;
+}
 
