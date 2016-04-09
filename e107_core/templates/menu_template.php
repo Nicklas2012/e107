@@ -21,6 +21,8 @@ if (!defined('e107_INIT')) { exit; }
 	$MENU_TEMPLATE['image-only']['end'] 				= '</div>';
 
 	$MENU_TEMPLATE['image-text-button']['start'] 		= '<div class="cpage-menu {CMENUNAME}">';
-	$MENU_TEMPLATE['image-text-button']['body'] 		= '{CMENUIMAGE}{CMENUBODY}{CPAGEBUTTON}';
+	$MENU_TEMPLATE['image-text-button']['body'] 		= '{CMENUIMAGE}
+	{CMENUBODY}
+	<div>{CPAGEBUTTON}</div>';
 	$MENU_TEMPLATE['image-text-button']['end'] 			= '</div>';
 ?>
